@@ -1,0 +1,175 @@
+<?php include('header.html'); ?>
+<html>
+	<body>
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Ayan</strong>,<br />
+								 a post-doctoral researcher at the<br />
+								 Johns Hopkins University, Baltimore.</h2>
+								<p>I study galaxy evolution<br />
+								using mock observables and emission line spectroscopy. Test</p>
+							</header>
+                            
+							<footer>
+								<a href="Ayan_CV.pdf" class="button scrolly">Download my CV</a>
+							</footer>
+                            
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<!-- <img src="images/kayaking.jpg" alt="" style="width:95%;"/> -->
+
+							<p>I am an Indian post-doctoral researcher, currently based at Johns Hopkins University (JHU), Baltimore. I recently submitted my PhD thesis at the
+								 Australian National University (ANU), Canberra. I had completed my integrated 
+							Bachelors-Masters course in Physics, from the Indian Institute of Technology Kharagpur, 
+							with an astronomy project for my Masters thesis. I moved to Canberra immediately after my Masters, for my PhD. Thereafter, I moved to Baltimore for my post-doc in January 2021.</p>
+
+							<p>At JHU I am a part of the <a href="http://foggie.science/">FOGGIE group</a> led by <a href="https://www.stsci.edu/~molly/">Molly Peeles</a> and <a href="https://www.jt-astro.science/">Jason Tumlinson</a>. 
+							At ANU I worked with 
+							<a href="https://researchers.anu.edu.au/researchers/kewley-ljx">Lisa Kewley</a>, <a href="http://www.mso.anu.edu.au/~krumholz/">Mark Krumholz</a>, and 
+							<a href="https://www.mso.anu.edu.au/~chfeder/">Christoph Federrath</a>.
+							My broad research interest involves studying how galaxies evolve across cosmic time by producing mock observations of nearby galaxies and 
+							carrying out spectroscopic observations
+							of very distant galaxies.</p>
+							
+							<p>While I was at ANU I was actively involved in astronomy outreach activities at Mount Stromlo Observatory, 
+							hosting both public and private outreach nights. I love talking to non-astronomers about the 
+							research that we do here!</p>
+							
+							<p>Outside astronomy, I like cooking and outdoor activities, among other things!</p>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>More about me</h2>
+							</header>
+
+							<p>Brief descriptions of my activities, research and otherwise, 
+							can be found in the links below.</p>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="projects.html" class="image fit"><img src="images/cheshirecat.jpg" alt="" /></a>
+										<header>
+											<h3><a href="projects.html">Research</a></h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="conferences.html" class="image fit"><img src="images/conference.jpg" alt="" /></a>
+										<header>
+											<h3><a href="conferences.html">Conferences</a></h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="outreach.html" class="image fit"><img src="images/outreach.jpeg" alt="" /></a>
+										<header>
+											<h3><a href="outreach.html">Outreach</a></h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="publications.html" class="image fit"><img src="images/publications.png" alt="" /></a>
+										<header>
+											<h3><a href="publications.html">Publications</a></h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="bio.html" class="image fit"><img src="images/bio.jpg" alt="" /></a>
+										<header>
+											<h3><a href="bio.html">Bio</a></h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="hobbies.html" class="image fit"><img src="images/rangoli.jpg" alt="" /></a>
+										<header>
+											<h3><a href="hobbies.html">Hobbies</a></h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+					<!-- <section id="contact" class="wrapper style1 fade-up"> -->
+						<div class="container">
+						<!-- <div class="inner"> -->
+							<h2>Contact me</h2>
+							<p>Got any questions about my work? Feel free to get in touch.</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="email.php">
+										<div class="field half first">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="5"></textarea>
+										</div>
+										<input type="submit" value="Submit">
+										<!--
+										<ul class="actions">
+											<li><a href="email.php" class="button submit">Send Message</a></li>
+										</ul>
+										-->
+									</form>
+								</section>
+								<section>
+									<ul class="contact" align="left">
+										<li>
+											<h3 >Address</h3>
+											<p>Bloomberg Center for Physics and Astronomy,<br />
+											Johns Hopkins University,<br />
+											3400 N. Charles St,<br />
+											Baltimore, MD 21218<br />
+											USA<p>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="mailto:aachary9@jhu.edu">aachary9@jhu.edu</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>+1 443-529-4809</span>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+	</body>
+</html>
+<?php include('footer.html'); ?>
