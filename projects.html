@@ -1,0 +1,69 @@
+<?php
+include 'header_notscroll.html';?>
+<html>
+<body>
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Content of THIS page -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Research</h2>
+							</header>
+
+							<h2 align="left">Overview</h2>
+							<p align="left">I am interested in galaxy evolution. Specifically, I 
+							quantify how properties of the ISM -- like metallicity, ionization parameter, pressure
+							and electron temperature -- evolve with redshift, particularly in the high-redshift (1 < z < 4)
+							regime.</p>
+							
+							<img src="images/lensing.png" alt="" style="width:95%;"/>
+							<h2 align="left">Project 1: Observation</h2>
+							<h3 align="left">Probing nebular conditions in high-z galaxies with rest-frame UV diagnostics</h3>
+
+							<p align="left">Optical to infrared astronomy is perched at an exciting platform today, with large, space
+							(JWST) and ground (GMT) based telescopes coming up. We will mostly be observing the rest-frame UV
+							light from distant galaxies because the rest-frame optical spectra are redshifted
+							beyond the telescope wavelength coverage. Before using the rest-frame UV light, it is crucial to understand what information
+							the rest-frame UV emission lines carry. To devise and test the new UV diagnostics we take advantage of the magnification 
+							power of gravitational lensing. We apply the new rest-frame UV emission line diagnostics from Kewley et al. 2017 (submitted) and Nicholls et al. (in prep) and
+							to a bright lensed galaxy at z~1.7. Once we understand how useful the different UV
+							diagnostics are, we will apply them to our full sample of high-z UV spectra.</p>
+							
+							<p align="left">For this project I am working primarily with <a href="https://researchers.anu.edu.au/researchers/kewley-ljx">Lisa Kewley</a> (ANU) 
+							and <a href="http://www.janerigby.net/">Jane Rigby</a> (NASA goddard). 
+							The <a href="https://academic.oup.com/mnras/article/488/4/5862/5538816">paper</a> has been published in MNRAS. 
+							The IZIP code (extension of IZI, Blan et al. 2014) released with this paper can be found <a href="codes/izip/">here</a>.</p>
+
+							<img src="images/linemap.png" alt="" style="width:34%;" hspace="80"/> <img src="images/enzo.png" alt="" style="width:40%;" hspace="80"/>
+							<h2 align="left">Project 2: Theory</h2>
+							<h3 align="left">Investigating effects of telescope resolution on the inferred metallicity gradient of galaxies</h3>
+
+							<p align="left">Simply observing the emission lines is not enough to infer the properties of galaxies, if we do not understand the impact 
+							of telescope limitations on the line fluxes. In this project we are trying to investigate
+							what effect the various instrumental limitations have on the measured lines. In particular, we
+							focus on the effect of telescope (spatial) resolution on the inferred metallicity gradient. 
+							How fine a resolution do we need to recover the true metallicity gradient of a galaxy?</p>
+							
+							<p align="left">We approach the problem by making synthetic position-position-velocity data cubes from simulations
+							of isolated Milky Way-type galaxy (Goldbaum et al. 2016). This process involves modelling HII regions
+							around young stars in the simulation and looking up photoionization model grids to estimate the 
+							emission line fluxes. We subsequently include the effects of noise as well as spectral and spatial smoothing
+							to produce a synthetic data cube from which the metallicity gradient can be extracted. The idea is to 
+							build a generic pipeline so that we can input any simulation, in future, and output the mock data cube.</p>
+							
+							<p align="left">For this project I am primarily working with <a href="http://www.mso.anu.edu.au/~krumholz/">Mark Krumholz</a> and 
+							<a href="https://www.mso.anu.edu.au/~chfeder/">Christoph Federrath</a>. This <a href="https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/staa1100/5825651?guestAccessKey=74097a16-43d9-4988-a143-938089cb4e70"> paper</a> has been published in MNRAS.</p>
+
+						</div>
+					</section>
+
+
+			</div>
+
+	</body>
+</html>
+<?php
+include 'footer.html';?>
