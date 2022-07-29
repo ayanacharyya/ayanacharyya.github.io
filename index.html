@@ -1,7 +1,18 @@
 <!--<?php include('header.html'); ?>-->
 <html>
+  <head> 
+    <script src="assets/js/jquery.min.js"></script> 
+    <script> 
+    $(function(){
+      	var includes = $('[data-include]')
+  		$.each(includes, function () {
+    	var file = $(this).data('include') + '.html'
+    	$(this).load(file)
+    });
+    </script> 
+  </head> 
   
-	<link href="header.html" rel="import" />
+	<div data-include="header"></div>
 	<body>
 		<!-- Main -->
 			<div id="main">
@@ -172,9 +183,8 @@
 					</section>
 
 			</div>
-		
-	<link href="footer.html" rel="import" />
-
 	</body>
+	<div data-include="footer"></div>
+
 </html>
 <!--<?php include('footer.html'); ?>-->
