@@ -1,18 +1,7 @@
 <!--<?php include('header.html'); ?>-->
 <html>
-  <head> 
-    <script src="assets/js/jquery.min.js"></script> 
-    <script> 
-    $(function(){
-      	var includes = $('[data-include]')
-  		$.each(includes, function () {
-    	var file = $(this).data('include') + '.html'
-    	$(this).load(file)
-    });
-    </script> 
-  </head> 
   
-	<div data-include="header"></div>
+	<link href="header.html" rel="import" />
 	<body>
 		<!-- Main -->
 			<div id="main">
@@ -26,7 +15,7 @@
 								 a post-doctoral researcher at the<br />
 								 Johns Hopkins University, Baltimore.</h2>
 								<p>I study galaxy evolution<br />
-								using mock observables and emission line spectroscopy. Testing</p>
+								using mock observables and emission line spectroscopy. Test</p>
 							</header>
                             
 							<footer>
@@ -184,7 +173,7 @@
 
 			</div>
 		
-	<div data-include="footer"></div>
+	<link href="footer.html" rel="import" />
 
 	</body>
 </html>
